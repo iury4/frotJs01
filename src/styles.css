@@ -15,14 +15,34 @@ body {
 input {
   margin: 8px 0;
   padding: 8px;
+  width: 100%;
 }
+
+.botoes {
+  display: flex;
+  justify-content: center;
+}
+
 #btn-calcular {
+  margin: 0 4px;
+  width: 50%;
   background-color: #000;
   color: #fff;
   padding: 8px;
   border-radius: 4px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: none;
+}
+
+#btn-limpar {
+  margin: 0 4px;
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: none;
 }
 .resultados {
   background-color: #ebebeb;
